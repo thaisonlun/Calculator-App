@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#121212"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Vùng hiển thị kết quả -->
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_display"
+        android:gravity="end|center_vertical"
+        android:padding="16dp"
+        android:text="@string/initial_value"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
+
+    <!-- GridLayout các nút -->
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:columnCount="4"
+        android:rowCount="5">
+
+        <!-- Hàng 1 -->
+        <Button
+            android:id="@+id/button7"
+            style="@style/CalcButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/button_7" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/CalcButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/button_8" />
+
+        <Button
+            android:id="@+id/button9"
+            style="@style/CalcButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/button_9" />
+
+        <Button
+            android:id="@+id/buttonDivide"
+            style="@style/CalcButtonOperator"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/button_divide" />
+
+        <!-- Hàng 2 -->
+        <Button
+            android:id="@+id/button4"
+            style="@style/CalcButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/button_4" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/CalcButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/button_5" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/CalcButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/button_6" />
+
+        <Button
+            android:id="@+id/buttonMultiply"
+            style="@style/CalcButtonOperator"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/button_multiply" />
+
+        <!-- Hàng 3 -->
+        <Button
+            android:id="@+id/button1"
+            style="@style/CalcButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/button_1" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/CalcButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/button_2" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/CalcButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/button_3" />
+
+        <Button
+            android:id="@+id/buttonMinus"
+            style="@style/CalcButtonOperator"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/button_minus" />
+
+        <!-- Hàng 4 -->
+        <Button
+            android:id="@+id/button0"
+            style="@style/CalcButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/button_0" />
+
+        <Button
+            android:id="@+id/buttonDot"
+            style="@style/CalcButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/button_dot" />
+
+        <Button
+            android:id="@+id/buttonPercent"
+            style="@style/CalcButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/button_percent" />
+
+        <Button
+            android:id="@+id/buttonPlus"
+            style="@style/CalcButtonOperator"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/button_plus" />
+
+        <!-- Hàng 5 -->
+        <Button
+            android:id="@+id/buttonClear"
+            style="@style/CalcButtonClear"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/button_clear" />
+
+        <Button
+            android:id="@+id/buttonBackspace"
+            style="@style/CalcButtonClear"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:text="@string/button_backspace" />
+
+        <Button
+            android:id="@+id/buttonEquals"
+            style="@style/CalcButtonEquals"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="2"
+            android:layout_columnWeight="2"
+            android:text="@string/button_equals" />
+
+    </GridLayout>
+
+    <!-- Container cho nút lịch sử -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@android:drawable/ic_input_add" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:contentDescription="@string/history_button"
+            android:clickable="true"
+            android:focusable="true"
+            app:fabSize="normal"
+            app:srcCompat="@android:drawable/ic_menu_recent_history" />
+    </FrameLayout>
+
+</LinearLayout>

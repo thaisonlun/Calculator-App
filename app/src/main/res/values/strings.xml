@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="history_button">History</string>
+    <string name="division_by_zero_error">Cannot divide by zero</string>
+    <string name="calculation_error">Error</string>
+    <string name="expression_result">%1$s = %2$s</string>
+    <string name="expression_input">%1$s%2$s</string>
+
+    <!-- Calculator buttons -->
+    <string name="button_0">0</string>
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_6">6</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_9">9</string>
+    <string name="button_plus">+</string>
+    <string name="button_minus">-</string>
+    <string name="button_multiply">×</string>
+    <string name="button_divide">÷</string>
+    <string name="button_equals">=</string>
+    <string name="button_clear">C</string>
+    <string name="initial_value">0</string>
+    <string name="back_button">Back</string>
+    <string name="clear_history">Clear History</string>
+    <string name="clear_history_confirmation">Are you sure you want to clear all history?</string>
+    <string name="button_dot">.</string>
+    <string name="button_percent">%</string>
+    <string name="button_backspace">⌫</string>
+</resources>
