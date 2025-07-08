@@ -19,13 +19,9 @@ Một ứng dụng máy tính đơn giản dành cho Android, hỗ trợ các ph
 ---
 
 ## 📷 Hình ảnh giao diện
-
-> _(*Bạn có thể chèn ảnh nếu muốn bằng cú pháp Markdown: ![ảnh](link_ảnh)*)_
 ![image](https://github.com/user-attachments/assets/e029c15f-872d-422d-a7c5-a65e1425af1a)
 ![image](https://github.com/user-attachments/assets/665971cd-f038-4e7c-9c8a-8a3db0d6d3ff)
 ![image](https://github.com/user-attachments/assets/a53b931f-b336-4b9e-9231-2c6aede94513)
-
-
 ---
 
 ## 🔧 Công nghệ sử dụng
