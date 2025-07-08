@@ -1,4 +1,5 @@
-# 📱 Calculator-App (Ứng dụng Máy tính Android)
+# 📱 Calculator-App (Ứng dụng Máy tính Android) ![image](https://github.com/user-attachments/assets/bb057515-b5e3-46a0-a943-29d20303b5cf)
+
 
 Một ứng dụng máy tính đơn giản dành cho Android, hỗ trợ các phép toán cơ bản (cộng, trừ, nhân, chia, phần trăm), lưu lại lịch sử tính toán bằng SQLite, giao diện đẹp theo Material Design và tích hợp thư viện máy tính popup `CalcDialogLib`.
 
@@ -20,6 +21,10 @@ Một ứng dụng máy tính đơn giản dành cho Android, hỗ trợ các ph
 ## 📷 Hình ảnh giao diện
 
 > _(*Bạn có thể chèn ảnh nếu muốn bằng cú pháp Markdown: ![ảnh](link_ảnh)*)_
+![image](https://github.com/user-attachments/assets/e029c15f-872d-422d-a7c5-a65e1425af1a)
+![image](https://github.com/user-attachments/assets/665971cd-f038-4e7c-9c8a-8a3db0d6d3ff)
+![image](https://github.com/user-attachments/assets/a53b931f-b336-4b9e-9231-2c6aede94513)
+
 
 ---
 
