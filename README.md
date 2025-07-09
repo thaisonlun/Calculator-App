@@ -83,7 +83,7 @@ Calculator-App/
 4. Nhấn Run ▶ để khởi chạy ứng dụng
 ---
 Cài thư viện ngoài (CalcDialogLib)
-Trong build.gradle (Module) thêm:
+Trong build.gradle (Mobile App) thêm:
 
 implementation 'com.maltaisn:calcdialog:2.2.2'
 
